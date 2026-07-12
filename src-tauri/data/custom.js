@@ -11,6 +11,7 @@ const isUrlAllowed = (urlString) => {
         }
         // 允许的 Google 相关域名白名单
         const allowedDomains = [
+            'aistudio.google.com',
             'googleusercontent.com', // Google 头像、用户上传的附件/图片
             'gstatic.com',           // Google 静态资源和样式库
             'googleapis.com',         // Google API 数据接口
